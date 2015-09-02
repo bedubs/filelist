@@ -1,0 +1,20 @@
+<div class="row"><div class="cust-spacer"></div></div>
+<div class="row"><div class="cust-spacer"></div></div>
+
+<div class="">
+
+    <!-- LINKED NAV -->
+
+    {% if filelist.files|length > 1 %}
+    <ol class="nav nav-pills nav-stacked " style="list-style-type: none; width: 100%; margin 0 auto; ">
+    {% for i, file in filelist.files %}
+      {% set link = 'id' %}
+      <h3>{{ file.description }}</h3>
+      <li><a href="{{ file.path }}" target="_blank" download>{{ file.title }}</a></li>
+      <!-- <p>{{ file }}</p> -->
+    {% endfor %}
+    </ol>
+    {% endif %}
+
+    </div>
+</div>
