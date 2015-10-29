@@ -9,7 +9,7 @@ list: $/one47/filelist/models/filelist/columns.yaml
 modelClass: One47\FileList\Models\FileList
 
 # List Title
-title: Manage FileLists
+title: one47.filelist::lang.filelists.manage_filelists
 
 # Link URL for each record
 recordUrl: one47/filelist/filelists/update/:id

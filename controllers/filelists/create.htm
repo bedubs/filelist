@@ -21,21 +21,23 @@
                     type="submit"
                     data-request="onSave"
                     data-hotkey="ctrl+s, cmd+s"
-                    data-load-indicator="Creating FileList..."
+                    data-load-indicator="<?= e(trans('backend::lang.form.creating_name', ['name'=>$formRecordName])) ?>"
                     class="btn btn-primary">
-                    Create
+                    <?= e(trans('backend::lang.form.create')) ?>
                 </button>
                 <button
                     type="button"
                     data-request="onSave"
                     data-request-data="close:1"
                     data-hotkey="ctrl+enter, cmd+enter"
-                    data-load-indicator="Creating FileList..."
+                    data-load-indicator="<?= e(trans('backend::lang.form.creating_name', ['name'=>$formRecordName])) ?>"
                     class="btn btn-default">
-                    Create and Close
+                    <?= e(trans('backend::lang.form.create_and_close')) ?>
                 </button>
                 <span class="btn-text">
-                    or <a href="<?= Backend::url('one47/filelist/filelists') ?>">Cancel</a>
+                    or <a href="<?= Backend::url('one47/filelist/filelists') ?>">
+                    <?= e(trans('backend::lang.form.cancel')) ?>
+                    </a>
                 </span>
             </div>
         </div>

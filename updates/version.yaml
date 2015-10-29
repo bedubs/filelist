@@ -2,3 +2,6 @@
   - First version of FileList
   - Create FileLists Table
   - create_filelists_table.php
+1.0.2:
+  - Fixed an error in the default markup for the component that caused a file to be hidden if their was only one file in the FileList
+  - Changed some of the language to use the backend language 

@@ -1,4 +1,4 @@
-# FileList # 
+# FileList 
 ### Plugin for OctoberCMS ###
 
 This plugin for OctoberCMS is based on [Carousel-Plugin](https://github.com/SaifurRahmanMohsin/Carousel-Plugin) Bootstrap Carousel plugin for October CMS.
