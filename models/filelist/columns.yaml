@@ -12,6 +12,3 @@ columns:
 
     created_at:
         label: backend::lang.access_log.created_at
-
-    updated_at:
-        label: Updated
