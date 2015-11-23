@@ -32,6 +32,16 @@ class Plugin extends PluginBase
       ];
     }
 
+    public function registerPermissions()
+    {
+      return [
+        'one47.filelist.manage' => [
+          'tab' => 'one47.filelist::lang.plugin.tab',
+          'label' => 'one47.filelist::lang.plugin.manage'
+        ]
+      ];
+    }
+
     public function registerSettings()
     {
       return [

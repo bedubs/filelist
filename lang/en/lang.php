@@ -3,7 +3,9 @@
 return [
   'plugin' => [
     'name' => 'FileList',
-    'description' => 'Upload files to display in a list.'
+    'description' => 'Upload files to display in a list.',
+    'tab' => 'FileList',
+    'manage' => 'Manage FileLists'
   ],
   'filelists' => [
     'name' => 'Name',
