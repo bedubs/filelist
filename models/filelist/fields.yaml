@@ -11,3 +11,4 @@ fields:
         label: Files
         type: fileupload
         mode: file
+        fileTypes: doc,docx,ppt,pptx,pdf,txt,odt
