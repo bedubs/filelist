@@ -8,3 +8,5 @@
 1.0.3:
   - Added basic permission function to allow or deny admins to manage filelists
   - A more specific permission function will be added in the near future 
+1.0.4:
+  - Fixed issue to allow various file types to be uploaded
